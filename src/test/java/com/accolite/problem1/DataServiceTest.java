@@ -7,7 +7,7 @@ import org.junit.Test;
 public class DataServiceTest {
 
     @Test
-    public void testNumberOfRecordsWithFileType() {
+    public void testFilesCountsWithTheType() {
         DataService dataRecorder = new DataService();
         assert dataRecorder.getAllFileNames(FileType.CSV).size() == 2;
         assert dataRecorder.getAllFileNames(FileType.XML).size() == 2;
