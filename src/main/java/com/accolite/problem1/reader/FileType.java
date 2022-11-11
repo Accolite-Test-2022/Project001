@@ -1,4 +1,4 @@
-package com.accolite.problem1;
+package com.accolite.problem1.reader;
 
 public enum FileType {
 

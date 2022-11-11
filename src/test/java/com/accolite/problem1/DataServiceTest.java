@@ -2,6 +2,7 @@ package com.accolite.problem1;
 
 import com.accolite.problem1.exception.FileIsCorruptException;
 import com.accolite.problem1.exception.FileTypeNotSupportedException;
+import com.accolite.problem1.reader.FileType;
 import org.junit.Test;
 
 public class DataServiceTest {
